@@ -11,16 +11,12 @@
     <!-- if we have already a tag h1 inside root then it will bw replaced by
      the react element object -->
      <h1>Hai harshith</h1>
-    
+    <!-- this is becouse the html load firts and then below react CDN will be 
+     loaded and after the scriptjs will run and deplace the h1 tag  -->
   </div>
 </body>
-<script crossorigin 
-src="https://unpkg.com/react@18/umd/react.development.js">
-</script>
-<script crossorigin 
-src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
-</script>
 
-<script src="script.js"></script>
+
+<script type="module" src="script.js"></script>
 
 </html>

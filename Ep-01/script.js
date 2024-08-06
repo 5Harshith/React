@@ -1,3 +1,6 @@
+import React  from "react";
+import ReactDOM from "react-dom/client";
+
 
 // code using javascript
 // const root = document.querySelector('#root')
@@ -9,7 +12,7 @@
 // h1.innerText ="harshith"
 
 
-//firts code in React
+/* firts code in React
      const heading = React.createElement(
     'h1',
     {class:"heading top", id:"title"},
@@ -23,7 +26,7 @@
    const root = ReactDOM.createRoot(document.getElementById('root'))
   //  root.render(heading)
 
-/*
+
 if you want to nested div structure in React
 
 <div id ="parents">
@@ -41,6 +44,7 @@ if you want to nested div structure in React
 
 */  
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
 const parent =React.createElement(
               'div',
               {id:"parents"},
@@ -49,7 +53,7 @@ const parent =React.createElement(
                   'div',
                   {id:"child"},[
                     //array to add sibling tag []
-                    React.createElement('h1',{},"hai i am H1 tag"),
+                    React.createElement('h1',{},"hai i am H1 tag🚀"),
                     React.createElement('h2',{},"hai i am H2 tag"),
                   ] 
                 ),
